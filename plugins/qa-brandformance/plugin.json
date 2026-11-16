@@ -1,12 +1,12 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "qa-brandformance",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Điều phối Agency QA Brandformance theo luồng Company OS 2.5: chiến lược, research, CIF, creative, sản xuất, Ads, báo cáo, reviewer và coach.",
   "author": {
     "name": "Quang Anh Agency"
   },
-  "repository": "https://github.com/quanganhcetus-lab/qa-brandformance-marketplace",
+  "repository": "https://github.com/quang-anh-agency/qa-brandformance-marketplace",
   "extensions": {
     "com.openai": {
       "onboardingSkill": "./skills/qa-team-setup/SKILL.md",
