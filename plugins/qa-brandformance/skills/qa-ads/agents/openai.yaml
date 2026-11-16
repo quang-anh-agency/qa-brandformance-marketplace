@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ads QA"
+  short_description: "Lập cách triển khai và test Meta Ads"
+  default_prompt: "Dùng $qa-ads để xử lý yêu cầu này theo bối cảnh doanh nghiệp của tôi."

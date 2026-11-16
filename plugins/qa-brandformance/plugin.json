@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "qa-brandformance",
+  "version": "2.1.0",
+  "description": "Điều phối Agency QA Brandformance theo luồng Company OS 2.5: chiến lược, research, CIF, creative, sản xuất, Ads, báo cáo, reviewer và coach.",
+  "author": {
+    "name": "Quang Anh Agency"
+  },
+  "repository": "https://github.com/quanganhcetus-lab/qa-brandformance-marketplace",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/qa-team-setup/SKILL.md",
+      "interface": {
+        "displayName": "QA Brandformance",
+        "shortDescription": "Đội marketing AI theo luồng Agency 2.5",
+        "longDescription": "14 skill nghiệp vụ và một bước thiết lập 13 vai trò agent. Dùng hồ sơ Drive hiện có, giữ các bước người duyệt và Plan A.",
+        "developerName": "Quang Anh Agency",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Dùng QA Brandformance để xử lý công việc marketing cho brand được giao.",
+          "Thiết lập các vai trò QA Brandformance trên máy này."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimization QA"
+  short_description: "Đọc kết quả và tối ưu cả đường chuyển đổi"
+  default_prompt: "Dùng $qa-optimization để xử lý yêu cầu này theo bối cảnh doanh nghiệp của tôi."

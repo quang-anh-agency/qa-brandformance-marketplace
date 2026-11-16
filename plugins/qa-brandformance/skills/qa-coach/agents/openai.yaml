@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coach QA"
+  short_description: "Rút kinh nghiệm và đề xuất cải tiến hệ thống"
+  default_prompt: "Dùng $qa-coach để rút kinh nghiệm từ các run và feedback trong kỳ này."

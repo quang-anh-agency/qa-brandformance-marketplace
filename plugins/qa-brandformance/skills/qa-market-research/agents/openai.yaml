@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Research QA"
+  short_description: "Nghiên cứu thị trường, đối thủ, khách và cơ hội"
+  default_prompt: "Dùng $qa-market-research để xử lý yêu cầu này theo bối cảnh doanh nghiệp của tôi."

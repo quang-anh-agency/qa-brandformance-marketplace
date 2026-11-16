@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chốt và chăm sóc lead QA"
+  short_description: "Thiết kế cách tiếp nhận, xếp ưu tiên, tư vấn chốt, nuôi lead"
+  default_prompt: "Dùng $qa-lead-to-sale để xử lý phần việc này theo đúng hồ sơ thương hiệu."

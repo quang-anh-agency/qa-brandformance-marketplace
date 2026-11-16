@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategy QA"
+  short_description: "Chọn bài toán, tệp và chiến lược thu hút"
+  default_prompt: "Dùng $qa-strategy để xử lý yêu cầu này theo bối cảnh doanh nghiệp của tôi."

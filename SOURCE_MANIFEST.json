@@ -1,0 +1,340 @@
+{
+  "distribution_version": "2.1.0",
+  "core_version": "2.0.1",
+  "operating_flow": "Company OS 2.5",
+  "source_files": [
+    {
+      "path": "skills/performance-mkt-qa/SKILL.md",
+      "sha256": "13bdbc562cff596ccf9ce0b91cb4289a53f9d9822f05a2b849cd87a11941ee8e"
+    },
+    {
+      "path": "skills/performance-mkt-qa/agents/openai.yaml",
+      "sha256": "271c5600e81bbc44d7406fd039c09374c159d732bbcf61e1e3b92fd7012b2edc"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/INDEX.md",
+      "sha256": "0c9d8e39ceea96f59799125639eb8271ad15da41b18ddc43356c119bae560e4c"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/ads-playbook.md",
+      "sha256": "1f551d75ba1bdb3b9bb7ad867fec62f3bf66491663be1c54d6cbf1dc497c293a"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/ads.md",
+      "sha256": "eb55b38b64be606785affd4213e2f34f7521fdded2267433f50723c718bbd0a4"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/creative.md",
+      "sha256": "39e0394da0df5412f5eef13c4462e6714a10659560d77d2e8978e9e03f1a9b37"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/customer-insight.md",
+      "sha256": "22bb18186a22e2665f3fd4bf5774234ad77cbcd1abb2ed9ac7fa51a5e48883dc"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/market-research.md",
+      "sha256": "a5974d71c0f4b7794cdc7b06d140639a312cacb07d19ff8feda7c87c25902844"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/optimization.md",
+      "sha256": "b4a483289ad7049d07a646c155b49305823f3fea133b8c7bc284a1dca88a5bad"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/performance-qa.md",
+      "sha256": "a7a3d711aa9ba190f66136467669c4f7682a5367200606e994b1fa60faffe836"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/agents/strategy.md",
+      "sha256": "0ef7978bad67bfbfee8db65084674e25fdfe1918573da574bb021c2eebaef6d6"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/ban-do-khoa-hoc.md",
+      "sha256": "335d664cd16740f3988ba608f3ec34eb8c421909cc090da2f2c9f7388b2aaded"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/bay-chieu-va-cif.md",
+      "sha256": "6a5e398639118bfbaf1795039c3526e8bc86379fa4934aeae6705f32e89744f3"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/agency-2.5-flow.md",
+      "sha256": "81e10eda6b1a51e97ff326531b67334d79c3518c1f411ece3fd0bc7e5cb68c69"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/brand-system.md",
+      "sha256": "211577d8a845e978c6b7e1e61825dee93d9b3e3114e29bb5f77c382580d89e73"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/drive-workflow.md",
+      "sha256": "85b58ba2e72d25677b20ea9450704566e5a092da3866ed4e66bb3254397ed013"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/integration.md",
+      "sha256": "26860a819e39cadd1fd16006f1494c74b6aa9c29bd7b8bf16c3851e208952aca"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/lead-to-sale.md",
+      "sha256": "cf297fb9ae80ebf54c9f4c0f7f81e75c5cbf024565d0b1389a45c17a964fca1b"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/measurement.md",
+      "sha256": "9c51b42cf4f019e076fc906b422c1cd66c51d1f606c9e432347f85b0a2e9a1a5"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/organic-community.md",
+      "sha256": "a697b046b3df1a1ec1b91132a0763414089631382ada8a72d242f0e498c0679a"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/planning.md",
+      "sha256": "9d92c1ba902b9ca3b0c2b60ab1e7802a0bd6254ee91d921ecf3b78f20e4acfd1"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/production.md",
+      "sha256": "0a4fbbf3dbf98af07dd603913c464da22a7f7549a7f8f376a3a6973d611bdfab"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/review.md",
+      "sha256": "5259e9126bcab61d4e5b8791abfa37f220ceeaa0a537fdcc2eba997019fdb06c"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/brandformance/status-coach.md",
+      "sha256": "90c5824fe3805a9874f425603da2239b73a6d7ccaf5180b325fc5f5fbd2b8b27"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/cases/g-service.md",
+      "sha256": "596f1c8d2ed26a7dbbb98fe801a44bb1ae138d12e0ed1c0b1e55cd115ece8678"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/cases/growee-cif-minh-hoa.md",
+      "sha256": "c56e4df96dd07307edd409d260d2a84082d524b1e12578717ec5ccf86ef01c21"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/cases/meo-beo.md",
+      "sha256": "e6266bbd391f93c69a989e6bb5243e83bf1126deadedf86d040cd18803e6a08c"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/cases/tu-bep.md",
+      "sha256": "6346043b74f9b6e94067ec594a5203440e866c6670f8a6933e7739db5237b014"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/chon-nguon-research.md",
+      "sha256": "465853a380207ad9c9f9b8e9dfaaa7456ea300c7f4ce2ebd5d20dfefb26445e4"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/content-va-chien-thuat-ads.md",
+      "sha256": "5dc72cc27bb7e5baa65ea5bdce142cb359e7c081f71a650b30d547e8ef7f516b"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/creative-playbook.md",
+      "sha256": "89447f91cfd5e906d926f35a614e5f09b498b908744c453bcade92990d55ef11"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/creative-san-xuat.md",
+      "sha256": "f61e972b1100847e3059fca9600de74cfd1742a2fb380d6e43d3e2f876fa2e86"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/market-research-channels.md",
+      "sha256": "68ec349c79bf2aa1a6ff0b05680785c14b88c76eea568dac943c1cd3634bc8b9"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/market-research-playbook.md",
+      "sha256": "668327ece6cc6a188ee2c5780b69b279afe706680e75f8808c9dcca8db6d4ae3"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/mo-hinh-va-chien-luoc.md",
+      "sha256": "ef808b9c57b2a2bc4432e3aec93ec2e3a59a10ba4147e3d40b88d5186ea01aee"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/nguon-va-gioi-han.md",
+      "sha256": "573dacf1c48112938ae64ea1a9f24382f193d2d9901544a4d8aba42676f44245"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/nguyen-tac.md",
+      "sha256": "894ff75030f948a48db042c873dc2bd949493d6dad1a228b4769f3af6c209db2"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/optimization-playbook.md",
+      "sha256": "49d70ac605af61c5dae38099a563c7d189f6e6023477ec3caa33aab1ad037c5e"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/ads-test-plan.md",
+      "sha256": "50e0b2a66709a6edbb53922faf1d8196477eaab9781c47caedfda5a7a392198d"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/ban-giao.md",
+      "sha256": "73c6d7a53e200c5f379c4b41ec480bc221c6f7b5770af538c5ef69d1bcc175a7"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/business-brief.md",
+      "sha256": "47834f607c5e3bb12c55037b3cf7544ddd06aeea66147f49cd46cb23cd996842"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/chan-doan.md",
+      "sha256": "50084dd7a9cab221195ab7825dd8df6a3cbc4b96bbafb70f01626d2cf5aab7b7"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/cif.md",
+      "sha256": "853cf7ad3d575456251440c9c072fc527d72e51b4a46156dadeb06559a826c02"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/creative-brief.md",
+      "sha256": "07d8778e4aad215b2ebafc454de70e37c9ae6bbe18c9ea2fc1109aec1696b2f3"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/creative-matrix.md",
+      "sha256": "620fc7c944df8e6518d62ca196477f33449b58470b46a569274fc0617cf6520d"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/hang-cho.md",
+      "sha256": "fd2e708bece463c774ef5956d8dacc5e3b5194076d835de29ab37943fb9c3d02"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/lead-to-sale.md",
+      "sha256": "f4ac7b8c0cfc1ca14be01938547fde2c6f58cc6b7799dbf272b7d328b5943519"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/learning-log.md",
+      "sha256": "af6144b62884939ed44b871d9b42d9830169d453799afd27b6a9f27aa264a03f"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/market-research-report.md",
+      "sha256": "b1e85c415d6baac578ad13548fb262ab62f84269ed87b12bfbc31c4a845b7ca8"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/research-evidence.md",
+      "sha256": "ddc4aa72ef2f0176f5119eb1444ec0a6751616906cc92cc065ff4100ff827e9b"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/templates/tep-va-offer.md",
+      "sha256": "968bd0b8ab43ac060f185ba1a04d01d062899657db02dd03266670baaa2d11c2"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/tieu-chuan-viet-nam-sme.md",
+      "sha256": "44b68f7346456e5adbf26375b5a534df2f6c74ece3c8bb9f96fd266a79d56c37"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/workflows/chan-doan.md",
+      "sha256": "70848528c7996f5c2ecdf7ab72021dd78cb6be5b09ad839847c1dee337640f34"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/workflows/chien-dich-moi.md",
+      "sha256": "512e54e00222254614f64f96fbd87e006cda8312c15e21d355c03a2b943132b4"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/workflows/du-lieu-va-ket-noi.md",
+      "sha256": "7661b1e06ad657c97f8cd76043b667b1803b9feeab112c9cf2977232858654df"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/workflows/he-thong-creative.md",
+      "sha256": "df8b3b7328976c3f37628527632021c0afd289406a6e17a50146199841d50422"
+    },
+    {
+      "path": "skills/performance-mkt-qa/references/workflows/thang-quy.md",
+      "sha256": "6e68c5d008557dd72ff0aef5a35d74ab14fed2cd92c39c862fa5efd172dba502"
+    },
+    {
+      "path": "skills/qa-ads/SKILL.md",
+      "sha256": "6feed7695630917179ec2b168a2e1132843c270bf7d046a6fe2b4102569f826d"
+    },
+    {
+      "path": "skills/qa-ads/agents/openai.yaml",
+      "sha256": "ffaffda89855965c04e707e8d1ae684d34ab7aba283ff0fa9cc4d9176f4562d1"
+    },
+    {
+      "path": "skills/qa-brand-system/SKILL.md",
+      "sha256": "e75cd42bedf1f76e48b2c10a94df5ab859023c7e9f025247ef565983cdf3eaf6"
+    },
+    {
+      "path": "skills/qa-brand-system/agents/openai.yaml",
+      "sha256": "73f55287ad2d10e8fc1caf7ee9f6687b12246c159dc09e91c36c3b80fd55b310"
+    },
+    {
+      "path": "skills/qa-coach/SKILL.md",
+      "sha256": "6ea9760590761a0fa775451da00e87df88f7105e6d8572f089e5541b28cc946e"
+    },
+    {
+      "path": "skills/qa-coach/agents/openai.yaml",
+      "sha256": "9b7f3a59afb4acaf6510cc1b9a2d09b1f1c30ba16446e2433f482b5fb21bfe19"
+    },
+    {
+      "path": "skills/qa-creative/SKILL.md",
+      "sha256": "a11ac61019e85a6e9cf254d9deee647bb46207635f026cf2cf26a060c02f5495"
+    },
+    {
+      "path": "skills/qa-creative/agents/openai.yaml",
+      "sha256": "5c573c2c882d6166dda2bb786acbda1765f1f21a9b2a584fbd13a65a1ef017e4"
+    },
+    {
+      "path": "skills/qa-customer-insight/SKILL.md",
+      "sha256": "c3b1e11f780291334773f8a0f232c1981ec1bc7caddcde1d52eb7eb3f6fc4427"
+    },
+    {
+      "path": "skills/qa-customer-insight/agents/openai.yaml",
+      "sha256": "c4d598d0a78052adf963246dbe24dfd1facb8c91a7f13c54fc05af9147c9ed06"
+    },
+    {
+      "path": "skills/qa-design/SKILL.md",
+      "sha256": "98525e3bb3284dceb34fe7693c23307e66fba35de5021b30f7d6c9f0c0c53f30"
+    },
+    {
+      "path": "skills/qa-design/agents/openai.yaml",
+      "sha256": "d437ca6fe1cc1d7dce1921d8949d2d9e6c38676ea436bba67947fee485ff16dd"
+    },
+    {
+      "path": "skills/qa-lead-to-sale/SKILL.md",
+      "sha256": "1fbb291c7392bec8ce7f9c11c2be642e8756498e3d5c39bd820080a582390702"
+    },
+    {
+      "path": "skills/qa-lead-to-sale/agents/openai.yaml",
+      "sha256": "372c6c991d38567381babe24b12cb80b87c05b5d111ab5ac9b4d5391d82dddf3"
+    },
+    {
+      "path": "skills/qa-market-research/SKILL.md",
+      "sha256": "0c3a22a61694d5d4988aba9f17a0f84403cbead9963c6f0dff907a2eb4263ee3"
+    },
+    {
+      "path": "skills/qa-market-research/agents/openai.yaml",
+      "sha256": "90380175e95171237f564c2e63b2d55510e6444ffc23daec3204230f2ea99694"
+    },
+    {
+      "path": "skills/qa-optimization/SKILL.md",
+      "sha256": "2abcfa3bb2098c324fae5cc3de51a105c94b187ad6c2e9ea421cee2897ff72ea"
+    },
+    {
+      "path": "skills/qa-optimization/agents/openai.yaml",
+      "sha256": "ed876cc1bc2c0adb08fc227c8b072c96718b3d5d64c6093d38fa9df359904891"
+    },
+    {
+      "path": "skills/qa-reporting/SKILL.md",
+      "sha256": "17feecdea9a0b55197f8277e6b9c7b5f7f37a8af47e615dc8791f7a1b8f3ca0d"
+    },
+    {
+      "path": "skills/qa-reporting/agents/openai.yaml",
+      "sha256": "697ee966f957cae861257b1e7c4cef55da6196915c020de31f22507861261d5e"
+    },
+    {
+      "path": "skills/qa-reviewer/SKILL.md",
+      "sha256": "d470ad31bbe3927fb022511baa23c64b3b437bfe2ba7813c777c6aaa98c2c76a"
+    },
+    {
+      "path": "skills/qa-reviewer/agents/openai.yaml",
+      "sha256": "2224fcf0a8884e1add1281a995148c041cfdab7a73d527095e9588160b3a9634"
+    },
+    {
+      "path": "skills/qa-strategy/SKILL.md",
+      "sha256": "b97130b736a0827e6e49a7ffeda01d5984de902d8ba100e991d0d50e034621bf"
+    },
+    {
+      "path": "skills/qa-strategy/agents/openai.yaml",
+      "sha256": "d9b9defe4b309c1a43d526a71eaa1f86088b6312e0980a57b15de6c34e109b41"
+    },
+    {
+      "path": "skills/qa-video-editor/SKILL.md",
+      "sha256": "3779df432fba52534cd99092875f448c3337cfd23e8dd96cfb2b9b6acdb11abf"
+    },
+    {
+      "path": "skills/qa-video-editor/agents/openai.yaml",
+      "sha256": "2338b58162ca8113677b01e42d36e98077f3a696d899f1efb554e0cf47ec15b4"
+    }
+  ],
+  "note": "Core skill files preserved exactly. Agent instructions resolve active skills by name, with no owner-machine or versioned-cache path. No brand document contents or credentials included."
+}

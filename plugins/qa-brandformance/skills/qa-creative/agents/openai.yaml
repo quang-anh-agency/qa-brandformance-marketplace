@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creative QA"
+  short_description: "Xây hệ thống creative, brief và variant"
+  default_prompt: "Dùng $qa-creative để xử lý yêu cầu này theo bối cảnh doanh nghiệp của tôi."

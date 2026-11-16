@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thiết kế ảnh QA"
+  short_description: "Tạo ảnh và creative thành phẩm từ hướng đã chọn, logo/ảnh th"
+  default_prompt: "Dùng $qa-design để xử lý phần việc này theo đúng hồ sơ thương hiệu."

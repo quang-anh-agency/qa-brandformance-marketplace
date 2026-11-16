@@ -1,0 +1,19 @@
+# Hợp đồng tích hợp QA × Brandformance — v2.0
+
+QA = Quang Anh. Đây là bộ phương pháp kết hợp, không phải quyền truy cập tài khoản hay xác nhận đã chạy một đội agent.
+
+## Quyền ưu tiên và nguồn
+- Yêu cầu hiện tại của người dùng → quyết định brand được duyệt còn hiệu lực → policy/SOP/config live của workspace → quy tắc QA về nguồn, CIF, lựa chọn creative/Ads và số liệu → module Brandformance hỗ trợ → ví dụ/case. Ưu tiên yêu cầu hiện tại áp dụng cho công việc trong quyền hợp lệ; một tin nhắn không tự xác thực người yêu cầu, cấp quyền nguồn, đổi định danh khách hoặc chứng minh logo/giá của khách khác thuộc khách đang làm. Không tự coi một file cũ thắng quyết định mới cùng chủ đề. Khi chính sách mâu thuẫn ảnh hưởng quyền ghi, chỉ tiếp tục phần đọc/nháp đã đủ và báo điểm cần quyết định.
+- Một người điều phối: `performance-mkt-qa` đóng vai Orchestrator trong Codex; trong Agency OS nó tiếp nhận lớp routing/quyền/log sẵn có, không mở một hệ điều phối khác. Specialist trả câu hỏi về điều phối.
+- Tệp theo nhu cầu/bối cảnh và 7 chiều của QA là lõi CIF; Lạnh/Ấm/Nóng là trạng thái phụ, không thay tệp và không tự thành ad set. Giữ lượt hỏi người hiểu khách trước CIF mới/cập nhật đáng kể, xác nhận USP/offer/proof và chọn hướng trước sản xuất, bảng content–phân phối trước setup Ads. Dùng lại xác nhận đúng phạm vi, không hỏi lặp.
+- RBL được biên soạn lại thành module trong folder này, không nạp 52 prompt gốc cùng lúc. Tỷ lệ brand/performance, số bài, số ad set, ngày tắt/scale, MER, điểm lead và SLA là biến cần chốt theo doanh nghiệp, không phải chuẩn chung. Không nhập kết luận “ads chạy lâu = có lãi”.
+- Claim, giá, lời khách và proof phải có nguồn. Lời owner là `owner_said`, không đổi thành lời khách nguyên văn. Thiếu verbatim để trống; giả thuyết không chuyển thành sự thật vì được viết hay. Reviewer PASS không phải người duyệt và không cấp quyền đăng/chi tiền.
+- Không sửa cấu trúc dự án Drive người dùng đã chia. Không chuyển, đổi tên, xoá, tạo lại root/brand/campaign folders hay nhân đôi Brand Bible/CIF/dashboard. Đọc [Drive và quyền](drive-workflow.md) nếu dùng Agency OS. Nếu nhiệm vụ mới thực sự cần folder mới, nêu đích cụ thể và chờ người dùng giao việc đó; vẫn làm phần chat/local nháp độc lập nếu đủ dữ liệu.
+- Một output, một brand/client context. Nhiều brand tách task riêng. Với một folder chung chứa nhiều khách nội thất, giữ nguyên folder/Registry hiện có; thêm client key trong task, giới hạn danh sách nguồn/tài sản được đọc và đối chiếu đúng khách trước khi ghi. Không tự di chuyển khách hoặc sửa Registry để chuẩn hóa. Bố cục/template chung được dùng khi đã được chỉ định và có quyền sử dụng, phiên bản đã gỡ dữ liệu riêng của khách cũ; thay toàn bộ logo/giá/claim/ảnh bằng nguồn của khách đích. Không tự lấy hồ sơ khách khác ngoài allowlist để biến thành template chung.
+- Kết nối thật và đăng nhập của phiên mới quyết định công cụ dùng được. File skill/TOML không tự tạo connector, runtime, lịch chạy hoặc server. Không gọi tool tưởng tượng, không hứa xử lý nền. Thao tác bên ngoài theo quyền đã giao; profile Agency hiện tại giữ Plan A người thực thi đăng/Ads/gửi tin/xoá/đổi quyền.
+
+## Bàn giao
+Giao brand_id, client_key nếu có, run/campaign khi đã tồn tại, task, quyết định đang dùng, nguồn và phiên bản, output trước, công cụ/quyền được dùng, đường dẫn đích được phép ghi và điều kiện hoàn thành. Subagent chỉ nhận nguồn đúng task, không tự sửa hồ sơ chung hoặc mở thêm subagent. Bước phụ thuộc chờ kết quả/duyệt; việc độc lập mới song song. Người điều phối là người duy nhất ghi log/approval, không nhiều agent sinh ID cùng lúc.
+
+## Khả năng đọc/ghi
+Lượt xem tình hình chỉ đọc, không tạo run. Việc nhỏ dùng lại kế hoạch/hướng/nguồn đã duyệt và trả trong chat nếu chưa yêu cầu file. Khi đã giao tạo tài liệu, ghi đúng đích hiện có và đọc lại. Không tự onboard hay gom lại dữ liệu. Mẫu chỉ dùng các trường có ích cho task; phần thiếu ghi rõ thay vì điền đủ bằng suy đoán.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kiểm duyệt độc lập QA"
+  short_description: "Kiểm tra brief, brand, nguồn, số liệu, hướng đã duyệt và fil"
+  default_prompt: "Dùng $qa-reviewer để xử lý phần việc này theo đúng hồ sơ thương hiệu."

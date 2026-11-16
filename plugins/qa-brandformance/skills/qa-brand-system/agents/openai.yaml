@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand và định vị QA"
+  short_description: "Xây hoặc rà định vị, Brand Bible, nhận diện và giọng thương "
+  default_prompt: "Dùng $qa-brand-system để xử lý phần việc này theo đúng hồ sơ thương hiệu."

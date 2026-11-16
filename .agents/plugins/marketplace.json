@@ -1,0 +1,20 @@
+{
+  "name": "quang-anh-agency",
+  "interface": {
+    "displayName": "Quang Anh Agency"
+  },
+  "plugins": [
+    {
+      "name": "qa-brandformance",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qa-brandformance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

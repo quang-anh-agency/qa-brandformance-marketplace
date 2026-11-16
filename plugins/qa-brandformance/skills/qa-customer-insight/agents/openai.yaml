@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Insight QA"
+  short_description: "Phân tích từng tệp khách, 7 chiều và lập CIF"
+  default_prompt: "Dùng $qa-customer-insight để phân tích từng tệp khách theo 7 chiều và xây CIF từ dữ liệu doanh nghiệp của tôi."

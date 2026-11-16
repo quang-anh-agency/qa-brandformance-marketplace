@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dựng video QA"
+  short_description: "Dựng video từ kịch bản đã duyệt và footage thật, gồm cắt ghé"
+  default_prompt: "Dùng $qa-video-editor để xử lý phần việc này theo đúng hồ sơ thương hiệu."

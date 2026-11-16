@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thiết lập đội QA"
+  short_description: "Cài và kiểm tra 13 vai trò agent sau khi cài plugin"
+  default_prompt: "Dùng $qa-team-setup để thiết lập bộ agent QA Brandformance trên máy này."

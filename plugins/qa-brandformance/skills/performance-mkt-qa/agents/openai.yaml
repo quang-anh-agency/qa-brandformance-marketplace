@@ -1,0 +1,5 @@
+interface:
+  display_name: QA Brandformance
+  short_description: Điều phối marketing từ chiến lược tới khách mua
+  default_prompt: Dùng $performance-mkt-qa để xử lý yêu cầu này theo bối cảnh doanh
+    nghiệp của tôi.

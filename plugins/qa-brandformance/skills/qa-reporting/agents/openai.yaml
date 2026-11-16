@@ -1,0 +1,4 @@
+interface:
+  display_name: "Báo cáo và học QA"
+  short_description: "Tổng hợp báo cáo marketing gọn, tình hình brand, tổng kết và"
+  default_prompt: "Dùng $qa-reporting để xử lý phần việc này theo đúng hồ sơ thương hiệu."
