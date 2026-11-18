@@ -3,9 +3,9 @@
   "files": {
     ".agents/plugins/marketplace.json": "3e70b57d2f97f02354bc1095d176cfdc1e2c8c7c022d4305b8768d8a93cc6279",
     ".gitignore": "e45b9db47bc2ef10d60c2380d5407e5e7b0a0855bf5395f7ed555466cb585484",
-    "README.md": "a59bafaff8a83430f5a84e08ffdf8d0f363d8b1e1279d33f8b544991cec4244d",
+    "README.md": "a977d4813b03c22a6c41c60364b78bab038ec07c32de87e6d92b5b8b11560814",
     "SOURCE_MANIFEST.json": "574e05caa4f4ccba2fa48bc63feeb8461d97a4dd32a8601a9fe6fcc1d2d18505",
-    "VERIFICATION.md": "db47491fe1e1e6301620ce72295067c87131f830053e4ae31ff32f494e5461f0",
+    "VERIFICATION.md": "6bc21ae46627afc1b4291cb088278c69a83868eedd30689bf9b234c98b9011a5",
     "VERSION": "7b3ff271f1373cfb97e9e53349794e1450f3794e4c0788c54a2060c7596da821",
     "plugins/qa-brandformance/SETUP.md": "9584f4a6877f8d99b9b4b9955507f9b78f06935808725bdcadfe6be80b0bae81",
     "plugins/qa-brandformance/assets/agents/qa-ads.toml": "ce8fa6771caa65bfc982c364ac0dd3b62c55c349522f476f5de87bcbb1e107e1",

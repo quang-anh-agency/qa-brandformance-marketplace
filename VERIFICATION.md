@@ -11,4 +11,8 @@
 - Bản 2.1.1 cập nhật địa chỉ repo và hướng dẫn quyền Organization; 14 skill nghiệp vụ và 13 cấu hình agent không đổi.
 - Không sửa Drive, Registry, offer hoặc ngân sách. Không đưa hồ sơ khách, credential hoặc raw CRM lên gói. Không triển khai server hoặc lịch nền.
 
-Các kiểm tra này xác nhận gói local và cách cài trong môi trường kiểm. Nhân viên vẫn cần quyền GitHub đọc repo, đăng nhập Git phù hợp, Codex hỗ trợ plugin, Python 3.11+, kết nối nguồn theo tài khoản của họ và mở chat mới sau Setup. Chưa xác nhận bằng tài khoản nhân viên thật hoặc chạy chiến dịch marketing từ đầu đến cuối. Không coi sự tồn tại của 13 TOML là bằng chứng cả 13 agent đã được gọi trong mọi client.
+Các kiểm tra này xác nhận gói local và cách cài trong môi trường kiểm. Nhân viên vẫn cần Codex hỗ trợ plugin, Python 3.11+, kết nối nguồn theo tài khoản của họ và mở chat mới sau Setup. Chưa xác nhận bằng tài khoản nhân viên thật hoặc chạy chiến dịch marketing từ đầu đến cuối. Không coi sự tồn tại của 13 TOML là bằng chứng cả 13 agent đã được gọi trong mọi client.
+
+## Trạng thái công khai — 18/11/2026
+
+Owner yêu cầu chuyển repo sang Public. Đã kiểm tra toàn bộ 119 blob trong lịch sử bằng mẫu nhận diện credential, không thấy kết quả khớp; đây không phải chứng nhận kiểm toán bí mật toàn diện. GitHub trả về visibility public và private false; truy cập API không đăng nhập cũng thành công. Các ghi chú Private và lời mời ở trên là lịch sử triển khai trước ngày này. README đã bỏ yêu cầu lời mời GitHub để tải/cài. Phiên bản plugin 2.1.1, 14 skill nghiệp vụ, Setup và 13 cấu hình agent không đổi; không thay quyền Google Drive.
